@@ -1,0 +1,136 @@
+Linear Mixed Model (LMM) Results
+========================================
+
+Analyziing: CONFIDENCE
+                        Mixed Linear Model Regression Results
+======================================================================================
+Model:                       MixedLM           Dependent Variable:           Score    
+No. Observations:            432               Method:                       REML     
+No. Groups:                  54                Scale:                        0.7312   
+Min. group size:             8                 Log-Likelihood:               -601.9514
+Max. group size:             8                 Converged:                    Yes      
+Mean group size:             8.0                                                      
+--------------------------------------------------------------------------------------
+                                             Coef. Std.Err.   z    P>|z| [0.025 0.975]
+--------------------------------------------------------------------------------------
+Intercept                                    2.407    0.131 18.331 0.000  2.150  2.665
+C(Explanation_Strategy)[T.Global Attribute]  0.120    0.116  1.034 0.301 -0.108  0.348
+C(Explanation_Strategy)[T.Granular Demotion] 0.046    0.116  0.398 0.691 -0.182  0.274
+C(Explanation_Strategy)[T.Side-effect]       0.500    0.116  4.297 0.000  0.272  0.728
+Group Var                                    0.566    0.160                           
+======================================================================================
+
+
+Analyziing: TRANSPARENCY
+                         Mixed Linear Model Regression Results
+=======================================================================================
+Model:                        MixedLM           Dependent Variable:           Score    
+No. Observations:             432               Method:                       REML     
+No. Groups:                   54                Scale:                        0.8677   
+Min. group size:              8                 Log-Likelihood:               -641.3784
+Max. group size:              8                 Converged:                    Yes      
+Mean group size:              8.0                                                      
+---------------------------------------------------------------------------------------
+                                             Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------------------------
+Intercept                                     2.861    0.149 19.254 0.000  2.570  3.152
+C(Explanation_Strategy)[T.Global Attribute]  -0.093    0.127 -0.730 0.465 -0.341  0.156
+C(Explanation_Strategy)[T.Granular Demotion]  0.398    0.127  3.141 0.002  0.150  0.647
+C(Explanation_Strategy)[T.Side-effect]        0.352    0.127  2.776 0.006  0.103  0.600
+Group Var                                     0.759    0.193                           
+=======================================================================================
+
+
+Analyziing: SATISFACTION
+                        Mixed Linear Model Regression Results
+======================================================================================
+Model:                       MixedLM           Dependent Variable:           Score    
+No. Observations:            432               Method:                       REML     
+No. Groups:                  54                Scale:                        0.6234   
+Min. group size:             8                 Log-Likelihood:               -579.7433
+Max. group size:             8                 Converged:                    Yes      
+Mean group size:             8.0                                                      
+--------------------------------------------------------------------------------------
+                                             Coef. Std.Err.   z    P>|z| [0.025 0.975]
+--------------------------------------------------------------------------------------
+Intercept                                    2.389    0.144 16.640 0.000  2.108  2.670
+C(Explanation_Strategy)[T.Global Attribute]  0.000    0.107  0.000 1.000 -0.211  0.211
+C(Explanation_Strategy)[T.Granular Demotion] 0.093    0.107  0.862 0.389 -0.118  0.303
+C(Explanation_Strategy)[T.Side-effect]       0.528    0.107  4.912 0.000  0.317  0.738
+Group Var                                    0.801    0.231                           
+======================================================================================
+
+
+Analyziing: PERSUASIVENESS
+                         Mixed Linear Model Regression Results
+=======================================================================================
+Model:                        MixedLM           Dependent Variable:           Score    
+No. Observations:             432               Method:                       REML     
+No. Groups:                   54                Scale:                        0.8141   
+Min. group size:              8                 Log-Likelihood:               -627.6276
+Max. group size:              8                 Converged:                    Yes      
+Mean group size:              8.0                                                      
+---------------------------------------------------------------------------------------
+                                             Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+---------------------------------------------------------------------------------------
+Intercept                                     2.500    0.144 17.394 0.000  2.218  2.782
+C(Explanation_Strategy)[T.Global Attribute]  -0.000    0.123 -0.000 1.000 -0.241  0.241
+C(Explanation_Strategy)[T.Granular Demotion]  0.194    0.123  1.584 0.113 -0.046  0.435
+C(Explanation_Strategy)[T.Side-effect]        0.398    0.123  3.243 0.001  0.157  0.639
+Group Var                                     0.708    0.186                           
+=======================================================================================
+
+
+--- POST-HOC PAIRWISE COMPARISONS (Simulated Holm Logic) ---
+
+Metric: Confidence
+           Multiple Comparison of Means - Tukey HSD, FWER=0.05           
+=========================================================================
+      group1            group2      meandiff p-adj   lower  upper  reject
+-------------------------------------------------------------------------
+   Counterfactual  Global Attribute   0.1204 0.8643 -0.2785 0.5193  False
+   Counterfactual Granular Demotion   0.0463 0.9907 -0.3526 0.4452  False
+   Counterfactual       Side-effect      0.5 0.0072  0.1011 0.8989   True
+ Global Attribute Granular Demotion  -0.0741 0.9637  -0.473 0.3248  False
+ Global Attribute       Side-effect   0.3796 0.0687 -0.0193 0.7785  False
+Granular Demotion       Side-effect   0.4537 0.0185  0.0548 0.8526   True
+-------------------------------------------------------------------------
+
+Metric: Transparency
+           Multiple Comparison of Means - Tukey HSD, FWER=0.05           
+=========================================================================
+      group1            group2      meandiff p-adj   lower  upper  reject
+-------------------------------------------------------------------------
+   Counterfactual  Global Attribute  -0.0926 0.9506 -0.5392  0.354  False
+   Counterfactual Granular Demotion   0.3981 0.0998 -0.0484 0.8447  False
+   Counterfactual       Side-effect   0.3519 0.1779 -0.0947 0.7984  False
+ Global Attribute Granular Demotion   0.4907 0.0248  0.0441 0.9373   True
+ Global Attribute       Side-effect   0.4444 0.0517 -0.0022  0.891  False
+Granular Demotion       Side-effect  -0.0463 0.9933 -0.4929 0.4003  False
+-------------------------------------------------------------------------
+
+Metric: Satisfaction
+           Multiple Comparison of Means - Tukey HSD, FWER=0.05           
+=========================================================================
+      group1            group2      meandiff p-adj   lower  upper  reject
+-------------------------------------------------------------------------
+   Counterfactual  Global Attribute      0.0    1.0 -0.4178 0.4178  False
+   Counterfactual Granular Demotion   0.0926 0.9405 -0.3252 0.5104  False
+   Counterfactual       Side-effect   0.5278 0.0066    0.11 0.9456   True
+ Global Attribute Granular Demotion   0.0926 0.9405 -0.3252 0.5104  False
+ Global Attribute       Side-effect   0.5278 0.0066    0.11 0.9456   True
+Granular Demotion       Side-effect   0.4352 0.0375  0.0174  0.853   True
+-------------------------------------------------------------------------
+
+Metric: Persuasiveness
+           Multiple Comparison of Means - Tukey HSD, FWER=0.05           
+=========================================================================
+      group1            group2      meandiff p-adj   lower  upper  reject
+-------------------------------------------------------------------------
+   Counterfactual  Global Attribute      0.0    1.0 -0.4321 0.4321  False
+   Counterfactual Granular Demotion   0.1944 0.6521 -0.2377 0.6266  False
+   Counterfactual       Side-effect   0.3981 0.0832  -0.034 0.8303  False
+ Global Attribute Granular Demotion   0.1944 0.6521 -0.2377 0.6266  False
+ Global Attribute       Side-effect   0.3981 0.0832  -0.034 0.8303  False
+Granular Demotion       Side-effect   0.2037 0.6171 -0.2284 0.6358  False
+-------------------------------------------------------------------------
