@@ -3,7 +3,7 @@
 [![Conference](https://img.shields.io/badge/UMAP-2026-blue.svg)](#) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-This is the official repository containing the code, data, and supplementary material for the paper **"Behind the Re-Rank: Explaining Fairness in Top-N Recommendations"**, accepted in UMAP 2026.
+This is the official repository containing the code, data, and supplementary material for the paper **"Behind the Re-Rank: Explaining Fairness in Top-N Recommendations"**, accepted in UMAP 2026. Additional materials and the official publication link will be added upon proceedings release.
 
 ## 📖 Abstract
 
