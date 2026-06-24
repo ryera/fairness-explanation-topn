@@ -59,5 +59,5 @@ If you use this code in your research, please cite the original publication:
 
 ```
 
-## 🎓 Funding Acknowledgment
+## 🎓 Acknowledgment
 Raciel Yera is supported by the European Union's Horizon Europe research and innovation program under the Marie Skłodowska-Curie Grant Agreement No. 101106164.
