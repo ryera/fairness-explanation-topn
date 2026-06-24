@@ -3,7 +3,9 @@
 [![Conference](https://img.shields.io/badge/UMAP-2026-blue.svg)](#) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-This is the official repository containing the code, data, and supplementary material for the paper **"Behind the Re-Rank: Explaining Fairness in Top-N Recommendations"**, accepted in UMAP 2026. Additional materials and the official publication link will be added upon proceedings release.
+This is the official repository containing the code, data, and supplementary material for the paper **"Behind the Re-Rank: Explaining Fairness in Top-N Recommendations"**, published in the *Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization (UMAP 2026)*.
+
+**Publication Link:** https://dl.acm.org/doi/full/10.1145/3774935.3806165
 
 ## 📖 Abstract
 
@@ -41,3 +43,16 @@ The framework requires **Python 3.x**. Since the dependencies are minimal, you c
 
 ```bash
 pip install cornac pandas numpy pulp
+
+
+## 📝 Citation
+If you use this code in your research, please cite the original publication:
+
+```bibtex
+@inproceedings{Yera2026behind,
+  title={Behind the Re-Rank: Explaining Fairness in Top-N Recommendations},
+  author={Yera, R. and Mart{\'\i}nez, L.},
+  booktitle={Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization},
+  pages={21--29},
+  year={2026}
+}
