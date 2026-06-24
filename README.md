@@ -48,13 +48,16 @@ pip install cornac pandas numpy pulp
 ## 📝 Citation
 If you use this code in your research, please cite the original publication:
 
+```markdown
 @inproceedings{Yera2026behind,
   title={Behind the Re-Rank: Explaining Fairness in Top-N Recommendations},
-  author={Yera, R. and Mart{\'\i}nez, L.},
+  author={Yera, R. and Martínez, L.},
   booktitle={Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization},
   pages={21--29},
   year={2026}
 }
+
+```
 
 ## 🎓 Funding Acknowledgment
 Raciel Yera is supported by the European Union's Horizon Europe research and innovation program under the Marie Skłodowska-Curie Grant Agreement No. 101106164.
